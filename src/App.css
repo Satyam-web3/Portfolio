@@ -606,6 +606,14 @@ body {
 .dark-mode .other-links a{
   color: var(--white-color);
 }
+.copyright{
+  
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 16px;
+  box-shadow:0rem 0rem 0.4rem 0.01rem rgb(129, 126, 126); ;
+}
 
 
 

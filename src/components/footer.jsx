@@ -36,7 +36,7 @@ export default function Footer() {
     };
 
     return (
-
+        <div>
         <div className="footer" id="contact">
             <div className="contact">
                 <h3>Contact Me</h3>
@@ -96,11 +96,12 @@ export default function Footer() {
                 </div>
                 </div>
             </div>
-
-
+        
 
         </div>
+        <div className="copyright">2024 All Rights Reserved   |   Satyam</div>
 
+        </div>
 
     )
 }
