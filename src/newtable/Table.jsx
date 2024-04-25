@@ -5,15 +5,8 @@ import './table.css';
 function Table() {
     const [classes, setClasses] = useState(['Class 1', 'Class 2', 'Class 3', 'Class 4', 'Class 5']);
     const [times, setTimes] = useState(['9:00 AM', '10:00 AM', '11:00 AM', '12:00 PM', '1:00 PM', '2:00 PM']);
-    const [timetable, setTimetable] = useState(() => {
-        const storedTimetable = localStorage.getItem('timetable');
-        return storedTimetable ? JSON.parse(storedTimetable) : getDefaultTimetable();
-    });
 
-    useEffect(() => {
-        localStorage.setItem('timetable', JSON.stringify(timetable));
-    }, [timetable]);
-
+    
     const getDefaultTimetable = () => {
         const defaultTimetable = {};
         classes.forEach(cls => {
@@ -25,6 +18,13 @@ function Table() {
         });
         return defaultTimetable;
     };
+    const [timetable, setTimetable] = useState(() => {
+        const storedTimetable = localStorage.getItem('timetable');
+        return storedTimetable ? JSON.parse(storedTimetable) : getDefaultTimetable();
+    });
+    useEffect(() => {
+        localStorage.setItem('timetable', JSON.stringify(timetable));
+    }, [timetable]);
 
     const handleClassNameChange = (e, cls) => {
         const updatedClasses = [...classes];
@@ -50,7 +50,7 @@ function Table() {
         if (newTime) {
             setTimes([...times, newTime]);
         }
-        const table=document.getElementById('timetable');
+        const table = document.getElementById('timetable');
         const currentWidth = table.offsetWidth;
         const newWidth = currentWidth + 100;
         table.style.width = newWidth + 'px';
@@ -72,7 +72,7 @@ function Table() {
         const updatedTimes = [...times];
         updatedTimes.splice(index, 1);
         setTimes(updatedTimes);
-        const table=document.getElementById('timetable');
+        const table = document.getElementById('timetable');
         const currentWidth = table.offsetWidth;
         const newWidth = currentWidth - 100;
         table.style.width = newWidth + 'px';
