@@ -19,8 +19,8 @@ function Project(props){
                         <p>{props.p_desc}</p>
                     </div>
                     <div className="project-button">
-                        <Link to={props.Link}><button>Demo</button></Link>
-                        <Link to={props.source}><button className="source">Source</button></Link>
+                        <Link to={props.Link} target="blank"><button>Demo</button></Link>
+                        <Link to={props.source} target="blank"><button className="source">Source</button></Link>
                     </div>
                 </div>
             
