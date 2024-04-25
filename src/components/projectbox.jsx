@@ -20,7 +20,7 @@ function Project(props){
                     </div>
                     <div className="project-button">
                         <Link to={props.Link}><button>Demo</button></Link>
-                        <a href={props.source}><button className="source">Source</button></a>
+                        <Link to={props.source}><button className="source">Source</button></Link>
                     </div>
                 </div>
             

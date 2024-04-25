@@ -109,8 +109,8 @@ export default function Home() {
 
                 <h2>Projects</h2>
                 <div className="p_cards">
-                    <Project Link="/weather" p_image={weatherp} p_name="Weather App" p_desc="This project tells about the weather of different countries " />
-                    <Project Link="/timetable" p_image={tt} p_name="TimeTable Builder" p_desc="This can help you create your own custom time table. " />
+                    <Project Link="/weather" source="https://github.com/Satyam020905/Portfolio/tree/main/src/weather" p_image={weatherp} p_name="Weather App" p_desc="This project tells about the weather of different countries " />
+                    <Project Link="/timetable"  p_image={tt} p_name="TimeTable Builder" p_desc="This can help you create your own custom time table. " />
                     <Project />
                 </div>
                 
