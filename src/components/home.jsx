@@ -25,6 +25,7 @@ import dm from '../images/dm.jpg'
 import wp from '../images/wordpress.webp'
 import weatherp from '../images/weather_project.png'
 import tt from '../images/timetable.png'
+import { Link } from 'react-router-dom';
 
 
 
