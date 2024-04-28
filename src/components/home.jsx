@@ -53,9 +53,9 @@ export default function Home() {
                     <h1>Satyam</h1>
                     <p>React Developer | Wordpress Developer | Digital Marketer</p>
                     <div className='icons'>
-                        <FaGithub style={{ paddingRight: '1rem' }} />
-                        <FaInstagram style={{ paddingRight: '1rem' }} />
-                        <FaLinkedin style={{ paddingRight: '1rem' }} />
+                        <a href='https://github.com/Satyam020905'><FaGithub style={{ paddingRight: '1rem',color:'black' }} /></a>
+                        <a href=''><FaInstagram style={{ paddingRight: '1rem' }} /></a>
+                        <a href=''><FaLinkedin style={{ paddingRight: '1rem' }} /></a>
                     </div>
                     <button>Download Resume</button>
                 </div></div >

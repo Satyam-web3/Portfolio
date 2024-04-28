@@ -16,7 +16,7 @@
 .header{
     position: sticky;
     top:0; left: 0; right: 0;
-    z-index: 1001;
+    z-index: 1000;
     background-color: var(--white-color);
     display: flex;
     box-shadow:  0.5rem 0.6rem 1rem rgba(0, 0, 0, 0.5);
@@ -237,6 +237,7 @@ body {
   
   text-transform: uppercase;
   font-weight: bolder;
+  z-index: 100;
 }
 .myname p{
   font-size: 2.5rem;
@@ -246,6 +247,7 @@ body {
 .myname .icons{
   padding-top: 2rem;
   font-size: 3rem ;
+  z-index: 100;
 }
 .myname button{
   margin-top: 1rem;
