@@ -29,6 +29,7 @@ import { Link } from 'react-router-dom';
 
 
 
+
 export default function Home() {
     return (
         <>
@@ -57,7 +58,7 @@ export default function Home() {
                         <a href=''><FaInstagram style={{ paddingRight: '1rem' }} /></a>
                         <a href=''><FaLinkedin style={{ paddingRight: '1rem' }} /></a>
                     </div>
-                    <button>Download Resume</button>
+                    <a href='resume2.pdf'><div className='button'><button>Download Resume</button></div></a>
                 </div></div >
 
 
