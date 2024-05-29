@@ -274,6 +274,12 @@ body {
 .dark-mode .myname button{
   color: var(--black-color);
 }
+.myname .icons a{
+  color: var(--black-color);
+}
+.dark-mode .myname .icons a{
+  color: var(--white-color);
+}
 /* first section */
 
 /* About Me section */
