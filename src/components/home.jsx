@@ -58,7 +58,7 @@ export default function Home() {
                         <a href=''><FaInstagram style={{ paddingRight: '1rem' }} /></a>
                         <a href=''><FaLinkedin style={{ paddingRight: '1rem' }} /></a>
                     </div>
-                    <a href='resume2.pdf'><div className='button'><button>Download Resume</button></div></a>
+                    <a href='satyam_resume.pdf'><div className='button'><button>Download Resume</button></div></a>
                 </div></div >
 
 
