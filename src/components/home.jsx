@@ -87,7 +87,7 @@ export default function Home() {
                         Additionally, my proficiency in digital marketing allows me to create comprehensive strategies that drive engagement
                         and conversions. Committed to delivering impactful results, I thrive on crafting immersive digital experiences that
                         leave a lasting impression.</p>
-                    <span></span>
+                    
                 </div>
             </div>
 

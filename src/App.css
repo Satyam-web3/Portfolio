@@ -4,6 +4,7 @@
   --black-color:rgb(32, 31, 31);
   --heading:2.8rem;
   --para:0.9rem;
+  --heading_phone:2rem
 }
 *{
   box-sizing: border-box;
@@ -508,6 +509,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding-top: 3.5rem;
 }
 .contact{
@@ -515,6 +517,7 @@ body {
  flex-direction: column;
  width: 50%;
  align-items: center;
+ justify-content: center;
  margin-left: 40px;
 }
 .contact h3{
@@ -666,31 +669,184 @@ body {
 
 
 @media screen and (max-width: 768px) {
+
+
   .header{
     display: none;
   }
+
+  /* first section */
+ .area{
+  height: 80vh;
+ }
+ .circles{
+  display: none;
+ }
+ .circles li:nth-child(5){
+  left:10%;
+ }
+ .circles li:nth-child(6){
+  left: 10%;
+ }
+ .circles li:nth-child(10){
+  left: 10%;
+ }
+ 
  .myname h1{
   font-size: 4rem;
  }
  .myname p{
-  font-size: 1.15rem;
+  font-size: 1rem;
  }
- .expertise{
-  
-  align-items: center;
-  justify-content: center;
+ .myname .icons{
+  font-size: 2.5rem;
  }
- 
-  .cards{
-    display: flex;
+ .myname button{
+  font-size: 1.3rem;
+ }
+  /* first section */
+
+
+  /* about me */
+
+  .about-me{
+    
+    padding: 1rem;
+    
+  }
+  .about-me h2{
+font-size: var(--heading_phone);
+  }
+  .about-me p{
+    font-size: 1rem
+  };
+  .about-box{
+    
     flex-direction: column;
-     
+  }
+  .about-box img{
+    height: 10rem;
+    width: 10rem;
+    
+  }
+
+  /* about me */
+
+  /* expertise  */
+
+  .expertise h2{
+    font-size: var(--heading_phone);
+  }
+.cards{
+  display: flex;
+  flex-direction: column;
+  gap:2rem
+}
+.card{
+  width: 21rem;
+  padding: 1rem;
+}
+.card h2{
+  font-size: 1.3rem;
+}
+.card p{
+  font-size: 0.7rem;
+  max-width: 20rem;
+}
+.card .icon{
+  font-size: 2rem;
+  
+  margin: 0;
+  margin-right: 6.5rem;
+  margin-left: 6.5rem;
+
+  /* margin-right: 0; */
+}
+
+
+  /* expertise  */
+
+  /* development skills */
+
+  .devskills h2{
+    font-size: var(--heading_phone);
+  }
+.devskills .devicons{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-size: 7.3rem;
+  align-items: center;
+}
+
+
+  /* development skills */
+
+
+  /* projects */
+
+  .projects h2{
+    font-size: var(--heading_phone);
   }
   .projects .p_cards{
-    display: flex;
-    flex-direction: column;
+    flex-direction: column;gap:2rem
   }
+  .project-card{
+    width: 21rem;
+    height: 18rem;
+    margin: 0px;
+    padding: 0px;
+
+  }
+  .project-image{
+    height: 100px;
+    width: 21rem;
+  }
+  .project-name{
+    font-size: 1.4rem;
+    padding-top: 4rem;
+    padding-left:10px
+  }
+  .project-desc{
+    font-size: 0.9rem;    padding-left:10px
+
+  }
+  .project-button button{
+    font-size: 1.3rem;   margin-left:10px
+
+  }
+
+  /* projects */
+
+
+  /* footer */
+
+.footer{
+  flex-direction: column;
+  justify-content: center;
+}
+.contact{
+  width: 90%;
   
+}
+.contact h3{
+  font-size: var(--heading_phone);
+}
+.links{
+  margin: 0px;
+  width: 90%;
+  
+} 
+
+.socials a{
+  font-size: 15px;
+  margin-right: 30px;
+}
+.other-links a{
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+  /* footer */
 
 }
 
