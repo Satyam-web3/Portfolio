@@ -679,8 +679,8 @@ body {
  .area{
   height: 80vh;
  }
- .circles{
-  display: none;
+ .circles li{
+  bottom:0;
  }
  .circles li:nth-child(5){
   left:10%;
@@ -750,7 +750,7 @@ font-size: var(--heading_phone);
   font-size: 1.3rem;
 }
 .card p{
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   max-width: 20rem;
 }
 .card .icon{
@@ -793,13 +793,14 @@ font-size: var(--heading_phone);
   .project-card{
     width: 21rem;
     height: 18rem;
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
+    
 
   }
   .project-image{
     height: 100px;
-    width: 21rem;
+    width: 21rem;padding: 8px;
+    
   }
   .project-name{
     font-size: 1.4rem;
@@ -825,11 +826,17 @@ font-size: var(--heading_phone);
   justify-content: center;
 }
 .contact{
-  width: 90%;
+  width: 96%;
+  margin-left: 0;
   
 }
 .contact h3{
   font-size: var(--heading_phone);
+}
+.form-container{
+  align-items: center;
+  width: 90%;
+  margin: 0;
 }
 .links{
   margin: 0px;
