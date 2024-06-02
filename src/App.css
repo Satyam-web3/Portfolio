@@ -712,6 +712,7 @@ body {
   .about-me{
     
     padding: 1rem;
+    margin-top: 4rem;
     
   }
   .about-me h2{
@@ -722,7 +723,7 @@ font-size: var(--heading_phone);
   };
   .about-box{
     
-    flex-direction: column;
+    color: #33a0e4;
   }
   .about-box img{
     height: 10rem;
@@ -734,6 +735,9 @@ font-size: var(--heading_phone);
 
   /* expertise  */
 
+  .expertise{
+    margin-top: 0;
+  }
   .expertise h2{
     font-size: var(--heading_phone);
   }
@@ -768,6 +772,9 @@ font-size: var(--heading_phone);
 
   /* development skills */
 
+  .devskills{
+    margin-top: -4rem;
+  }
   .devskills h2{
     font-size: var(--heading_phone);
   }
@@ -824,6 +831,7 @@ font-size: var(--heading_phone);
 .footer{
   flex-direction: column;
   justify-content: center;
+  margin-top: -3rem;
 }
 .contact{
   width: 96%;
@@ -841,7 +849,7 @@ font-size: var(--heading_phone);
 .links{
   margin: 0px;
   width: 90%;
-  
+  height: 20rem;
 } 
 
 .socials a{
