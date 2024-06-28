@@ -663,12 +663,25 @@ body {
 
 
 
+@media screen and (max-width: 770px){
+  .about-box{
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  
+  }
+  .about-box img{
+    height: 10rem;
+    width: 10rem;
+    
+  }
+}
 
 
 
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
 
 
   .header{
@@ -721,13 +734,7 @@ font-size: var(--heading_phone);
   .about-me p{
     font-size: 1rem
   };
-  .about-box{
-    
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-  }
+  
   .about-box img{
     height: 10rem;
     width: 10rem;
