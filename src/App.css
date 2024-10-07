@@ -47,8 +47,9 @@
 .menu{
 
   position: absolute;
-  right: 70px;
   display: flex;
+  right: 70px;
+  
   
 }
 .menu li{
