@@ -443,8 +443,11 @@ body {
 .projects{
   display: flex;
   flex-direction: column;
+  justify-items: center;
   align-items: center;
+  width: 100%;
   padding-top: 5rem;
+  
 }
 .projects h2{
   font-size: var(--heading);
@@ -456,7 +459,7 @@ body {
 }
 .project-card{
   height: 24rem;
-  width:30.5rem;
+  width:30%;
   align-items: center;
   margin: 4px;
   padding: 13px;
@@ -470,7 +473,7 @@ body {
 
 .project-image{
   height: 200px;
-  width: 460px;
+  width: 100%;
 }
 .project-image img{
   width: 100%;
