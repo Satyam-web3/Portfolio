@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "title": "Satyam | Digital Marketing Specialist",
+    "description": "Portfolio website showcasing digital marketing expertise in SEO, PPC, and web development"
+  },
+  "personal": {
+    "name": "Satyam",
+    "title": "Digital Marketing Specialist",
+    "location": "Noida, India",
+    "avatar": "/profile.jpg",
+    "email": "satyam09.tech@gmail.com",
+    "phone": "+91 8510039826",
+    "workingHours": "Monday - Friday, 9am - 6pm IST",
+    "availableForWork": true,
+    "badges": ["SEO", "PPC", "Web Development"],
+    "social": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/satyam09",
+        "icon": "Linkedin"
+      },
+      {
+        "platform": "GitHub",
+        "url": "#",
+        "icon": "Github"
+      },
+      {
+        "platform": "Twitter",
+        "url": "#",
+        "icon": "Twitter"
+      }
+    ]
+  },
+  "about": {
+    "bio": "Digital Marketing Specialist with hands-on experience in SEO, PPC, and web development. Skilled at improving search rankings, driving qualified traffic, and delivering measurable ROI. Proficient in managing Google Ads, LinkedIn, and Meta campaigns with expertise in website optimization on WordPress and Elementor.",
+    "focus": [
+      "Optimizing search rankings and driving organic traffic growth",
+      "Managing high-ROI PPC campaigns across Google Ads, Meta, and LinkedIn",
+      "Building responsive websites and improving technical SEO performance"
+    ],
+    "languages": [
+      {
+        "name": "English",
+        "proficiency": "Fluent",
+        "level": 95,
+        "flag": "🇬🇧"
+      },
+      {
+        "name": "Hindi",
+        "proficiency": "Native",
+        "level": 100,
+        "flag": "🇮🇳"
+      }
+    ],
+    "interests": [
+      "SEO Strategy",
+      "Performance Marketing",
+      "Web Analytics",
+      "Content Optimization",
+      "Conversion Rate Optimization"
+    ]
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Credentials",
+      "href": "#credentials"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Digital Marketing Executive",
+      "company": "Kelvera Solutions",
+      "period": "Nov 2024 - Present",
+      "description": "Leading digital marketing initiatives with focus on Google Ads optimization and SEO improvements. Driving measurable ROI through refined targeting strategies and data-driven campaign management.",
+      "achievements": [
+        "Optimized Google Ads campaigns, improving ROI by 35% through refined targeting and bid adjustments",
+        "Reduced CPC by 20% while maintaining conversions by enhancing Quality Score and CTR",
+        "Led A/B testing of landing pages, raising conversion rate by 15%",
+        "Boosted organic traffic by 40% in 3 months through keyword optimization and competitive analysis",
+        "Resolved 30% of site SEO issues using GA4, GSC, and SEMrush"
+      ],
+      "technologies": ["Google Ads", "SEO", "GA4", "Google Search Console", "SEMrush", "A/B Testing"]
+    },
+    {
+      "title": "SEO and PPC Manager - Freelancing",
+      "company": "Kumar Enterprises",
+      "period": "May 2024 - Oct 2024",
+      "description": "Managed comprehensive SEO and PPC strategies for enterprise client. Achieved significant improvements in organic rankings and paid campaign performance through strategic optimization.",
+      "achievements": [
+        "Achieved top-5 rankings for 10+ industry-specific keywords, increasing organic clicks by 45% in 6 months",
+        "Boosted local SEO via Google Business Profile, raising visibility by 30%",
+        "Scaled Google Ads and Facebook Ads campaigns, improving CTR by 20% while reducing CPC by 15%"
+      ],
+      "technologies": ["Google Ads", "Facebook Ads", "Local SEO", "Google Business Profile", "Keyword Research"]
+    },
+    {
+      "title": "Digital Marketing & Web Development Manager",
+      "company": "The Winning Hand",
+      "period": "Oct 2023 - Oct 2024",
+      "description": "Managed end-to-end digital marketing and web development projects. Designed responsive WordPress websites while implementing comprehensive SEO strategies and managing cross-platform PPC campaigns.",
+      "achievements": [
+        "Designed responsive WordPress websites, improving load speed by 25% and user retention by 15%",
+        "Implemented structured data and on-page SEO, boosting impressions by 50% and sessions by 20%",
+        "Created and managed cross-platform PPC campaigns (Google Ads & Meta), driving a 20% rise in qualified leads while maintaining target ROAS",
+        "Enhanced website's organic rankings and CTR by restructuring content, increasing CTR by 30%"
+      ],
+      "technologies": ["WordPress", "Elementor", "Google Ads", "Meta Ads", "Technical SEO", "HTML/CSS"]
+    }
+  ],
+  "credentials": {
+    "certifications": [
+      {
+        "name": "Google Display Ads Certification",
+        "issuer": "Google Skillshop",
+        "date": "2024",
+        "logo": "/skill1.webp",
+        "link": "https://skillshop.credential.net/47eea782-b1ba-4bde-8104-fad8fe8df11d#acc.W1hapBPv"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Computer Applications (BCA)",
+        "institution": "Vivekananda Institute of Professional Studies - Technical Campus",
+        "year": "2022-2025",
+        "logo": "/vips-logo.png"
+      },
+      {
+        "degree": "Senior Secondary Certification (XII)",
+        "institution": "Yuvashakti Model School, CBSE",
+        "year": "2018-2019",
+        "logo": "/school-logo.png"
+      }
+    ],
+    "skills": [
+      "On-Page SEO",
+      "Off-Page SEO",
+      "Technical SEO",
+      "Google Ads",
+      "Meta Ads",
+      "LinkedIn Ads",
+      "Keyword Research",
+      "Content Strategy",
+      "A/B Testing",
+      "Lead Generation",
+      "ROI Analysis",
+      "Landing Page Optimization"
+    ]
+  },
+  "technicalSkills": {
+    "design": ["WordPress", "Elementor", "Landing Page Design", "Responsive Design", "Page Speed Optimization"],
+    "development": ["HTML/CSS", "Website Optimization", "Core Web Vitals", "Structured Data", "Technical SEO"],
+    "strategy": [
+      "Keyword Research",
+      "Content Strategy",
+      "User Experience Optimization",
+      "Conversion Rate Optimization",
+      "A/B Testing",
+      "Performance Tracking"
+    ],
+    "marketing": [
+      "Campaign Management",
+      "Client Communication",
+      "Data Analysis",
+      "Performance Reporting",
+      "ROI Optimization"
+    ]
+  }
+}
