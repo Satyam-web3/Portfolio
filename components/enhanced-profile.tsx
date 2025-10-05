@@ -46,9 +46,19 @@ export function EnhancedProfile() {
               </Badge>
             ))}
           </div>
-
           <SocialLinks socialLinks={personalInfo.social} />
+          <div className="p-3 sm:p-4 border-t border-zinc-800 flex items-center justify-center">
+            <div className="flex items-center">
+              <span
+                className={`w-2 h-2 ${personalInfo.availableForWork ? "bg-green-500" : "bg-red-500"} rounded-full mr-2`}
+              ></span>
+              <span className="text-xs text-zinc-400">
+                {personalInfo.availableForWork ? "Available for new projects" : "Not available for new projects"}
+              </span>
+            </div>
+          </div>
         </div>
+
 
         {/* Tabbed Content - Mobile optimized */}
         <Tabs defaultValue="about" className="w-full" onValueChange={setActiveTab}>
@@ -56,18 +66,16 @@ export function EnhancedProfile() {
             <TabsList className="w-full bg-transparent border-b border-zinc-800 rounded-none h-auto p-0">
               <TabsTrigger
                 value="about"
-                className={`flex-1 rounded-none border-b-2 px-2 sm:px-4 py-2 text-xs sm:text-sm ${
-                  activeTab === "about" ? "border-cyan-400 text-[#3AB09E]" : "border-transparent text-zinc-400"
-                }`}
+                className={`flex-1 rounded-none border-b-2 px-2 sm:px-4 py-2 text-xs sm:text-sm ${activeTab === "about" ? "border-cyan-400 text-[#3AB09E]" : "border-transparent text-zinc-400"
+                  }`}
               >
                 <User className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                 About
               </TabsTrigger>
               <TabsTrigger
                 value="contact"
-                className={`flex-1 rounded-none border-b-2 px-2 sm:px-4 py-2 text-xs sm:text-sm ${
-                  activeTab === "contact" ? "border-cyan-400 text-[#3AB09E]" : "border-transparent text-zinc-400"
-                }`}
+                className={`flex-1 rounded-none border-b-2 px-2 sm:px-4 py-2 text-xs sm:text-sm ${activeTab === "contact" ? "border-cyan-400 text-[#3AB09E]" : "border-transparent text-zinc-400"
+                  }`}
               >
                 <Mail className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                 Contact
