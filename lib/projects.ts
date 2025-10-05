@@ -179,7 +179,7 @@ const projects: Project[] = [
     gallery: [
       { url: "/twh.png", caption: "Website Performance Improvements" },
       { url: "/twh-seo.png", caption: "SEO Rankings Growth" },
-      { url: "", caption: "PPC Campaign Dashboard" },
+      { url: "/twh-gmb.png", caption: "PPC Campaign Dashboard" },
       { url: "", caption: "Traffic Analytics" },
     ],
     client: "Agency Project",
