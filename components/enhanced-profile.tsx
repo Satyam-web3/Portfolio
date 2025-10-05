@@ -46,8 +46,7 @@ export function EnhancedProfile() {
               </Badge>
             ))}
           </div>
-          <SocialLinks socialLinks={personalInfo.social} />
-          <div className="p-3 sm:p-4 border-t  flex items-center justify-center">
+          <div className="p-3 sm:p-4  flex items-center justify-center">
             <div className="flex items-center">
               <span
                 className={`w-2 h-2 ${personalInfo.availableForWork ? "bg-green-500" : "bg-red-500"} rounded-full mr-2`}
@@ -57,6 +56,8 @@ export function EnhancedProfile() {
               </span>
             </div>
           </div>
+          <SocialLinks socialLinks={personalInfo.social} />
+          
         </div>
 
 
