@@ -32,7 +32,7 @@ export interface Project {
 
 const projects: Project[] = [
   {
-    id: 1,
+    id: 4,
     slug: "kumar-ro-plant",
     title: "Kumar RO Plant",
     category: "Performance Marketing",
@@ -87,10 +87,10 @@ const projects: Project[] = [
     ],
   },
   {
-    id: 2,
+    id: 1,
     slug: "policy-digit",
     title: "Policy Digit",
-    category: "Lead Generation",
+    category: "Lead Generation and Web Development",
     shortDescription:
       "Built insurance policy website with integrated lead generation system, combining web development and digital marketing for optimal results.",
     description: [
@@ -190,7 +190,58 @@ const projects: Project[] = [
       {
         slug: "kumar-ro-plant",
         title: "Kumar RO Plant",
-        category: "Performance Marketing",
+        category: "Performance Marketing and Web Development",
+        image: "/kumar.png",
+      },
+      {
+        slug: "policy-digit",
+        title: "Policy Digit",
+        category: "Lead Generation",
+        image: "/digit.png",
+      },
+    ],
+  },
+
+    {
+    id: 2,
+    slug: "expert-training-institute",
+    title: "Expert Training Insitute",
+    category: "Web Development",
+    shortDescription:
+      "Web Development Project for the coaching class in Rohini.",
+    description: [
+      "This project is designed keeping in mind for the coaching institute, so they can get leads.",
+      "Website optimization focused on improving technical performance, implementing structured data, and enhancing user experience. These improvements resulted in significant gains in organic visibility and user engagement metrics.",
+    ],
+    features: [
+      "Responsive WordPress website development",
+      "Website speed optimization",
+      "Image optimization",
+      "Used custom html and css where needed",
+      
+    ],
+    technologies: [
+      "WordPress",
+      "Elementor",
+      
+    ],
+    coverImage: "/twh.png",
+    thumbnailImage: "/twh.png",
+    gallery: [
+      { url: "/eti.png", caption: "Website Hero" },
+      { url: "/eti-sec.png", caption: "Website form" },
+      { url: "/eti.png", caption: "" },
+      { url: "", caption: " " },
+    ],
+    client: "Agency Project",
+    timeline: "1 month",
+    role: "Web Development Associate",
+    liveUrl: "https://expert-seo-training-institute.in/",
+    relatedProjects: [
+      {
+        slug: "kumar-ro-plant",
+        title: "Kumar RO Plant",
+        category: "Performance Marketing and Web Development",
         image: "/kumar.png",
       },
       {
@@ -203,7 +254,7 @@ const projects: Project[] = [
   },
 
   {
-    id: 4,
+    id: 5,
     slug: "dvault",
     title: "Dvault",
     category: "File Storage App",
