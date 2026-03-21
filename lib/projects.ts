@@ -31,61 +31,7 @@ export interface Project {
 }
 
 const projects: Project[] = [
-  {
-    id: 4,
-    slug: "kumar-ro-plant",
-    title: "Kumar RO Plant",
-    category: "Performance Marketing",
-    shortDescription:
-      "Comprehensive SEO and paid advertising campaign driving organic growth and qualified leads for water purification business.",
-    description: [
-      "Kumar RO Plant project focused on establishing a strong digital presence for a water purification business through integrated SEO and paid advertising strategies. The goal was to increase brand visibility, drive qualified traffic, and generate high-quality leads.",
-      "The SEO strategy involved comprehensive keyword research targeting 50+ industry-specific terms, on-page optimization, and technical SEO improvements. This resulted in significant improvements in organic search rankings and traffic.",
-      "Parallel to SEO efforts, managed Google Ads and Facebook Ads campaigns with strategic audience targeting, ad copy optimization, and continuous A/B testing to maximize ROI and conversion rates.",
-    ],
-    features: [
-      "Tracked and optimized 50+ industry-specific keywords",
-      "Achieved top-5 rankings for 10+ high-value keywords",
-      "Managed multi-platform paid advertising campaigns",
-      "Implemented comprehensive A/B testing strategy",
-      "Developed conversion-optimized landing pages",
-      "Real-time performance tracking and reporting",
-    ],
-    technologies: [
-      "Google Ads",
-      "Facebook Ads",
-      "SEMrush",
-      "Google Analytics 4",
-      "Google Search Console",
-      "A/B Testing Tools",
-    ],
-    coverImage: "/kumar.png",
-    thumbnailImage: "/kumar.png",
-    gallery: [
-      { url: "/kumar-gsc.png", caption: "SEO Performance Dashboard" },
-      { url: "/kumar-dash.png", caption: "Google Ads Campaign Results" },
-      { url: "/kumar-analytics.png", caption: "Google Analytics" },
-      
-    ],
-    client: "Kumar Enterprises",
-    timeline: "10 months (Nov 2023 - Oct 2024)",
-    role: "SEO and PPC Manager",
-    liveUrl: "https://kumarroplant.com/",
-    relatedProjects: [
-      {
-        slug: "policy-digit",
-        title: "Policy Digit",
-        category: "Lead Generation",
-        image: "/digit.png",
-      },
-      {
-        slug: "the-winning-hand",
-        title: "The Winning Hand",
-        category: "Growth & Web Development",
-        image: "/twh.png",
-      },
-    ],
-  },
+  
   {
     id: 1,
     slug: "policy-digit",
@@ -143,6 +89,58 @@ const projects: Project[] = [
       },
     ],
   },
+
+   {
+    id: 2,
+    slug: "expert-training-institute",
+    title: "Expert Training Insitute",
+    category: "Web Development",
+    shortDescription:
+      "Web Development Project for the coaching class in Rohini.",
+    description: [
+      "This project is designed keeping in mind for the coaching institute, so they can get leads.",
+      "Website optimization focused on improving technical performance, implementing structured data, and enhancing user experience. These improvements resulted in significant gains in organic visibility and user engagement metrics.",
+    ],
+    features: [
+      "Responsive WordPress website development",
+      "Website speed optimization",
+      "Image optimization",
+      "Used custom html and css where needed",
+      
+    ],
+    technologies: [
+      "WordPress",
+      "Elementor",
+      
+    ],
+    coverImage: "/eti.png",
+    thumbnailImage: "/eti.png",
+    gallery: [
+      { url: "/eti.png", caption: "Website Hero" },
+      { url: "/eti-sec.png", caption: "Website form" },
+      { url: "/eti.png", caption: "" },
+      { url: "", caption: " " },
+    ],
+    client: "Agency Project",
+    timeline: "1 month",
+    role: "Web Development Associate",
+    liveUrl: "https://expert-seo-training-institute.in/",
+    relatedProjects: [
+      {
+        slug: "kumar-ro-plant",
+        title: "Kumar RO Plant",
+        category: "Performance Marketing and Web Development",
+        image: "/kumar.png",
+      },
+      {
+        slug: "policy-digit",
+        title: "Policy Digit",
+        category: "Lead Generation",
+        image: "/digit.png",
+      },
+    ],
+  },
+
   {
     id: 3,
     slug: "the-winning-hand",
@@ -202,53 +200,60 @@ const projects: Project[] = [
     ],
   },
 
-    {
-    id: 2,
-    slug: "expert-training-institute",
-    title: "Expert Training Insitute",
-    category: "Web Development",
+   
+
+  {
+    id: 4,
+    slug: "kumar-ro-plant",
+    title: "Kumar RO Plant",
+    category: "Performance Marketing",
     shortDescription:
-      "Web Development Project for the coaching class in Rohini.",
+      "Comprehensive SEO and paid advertising campaign driving organic growth and qualified leads for water purification business.",
     description: [
-      "This project is designed keeping in mind for the coaching institute, so they can get leads.",
-      "Website optimization focused on improving technical performance, implementing structured data, and enhancing user experience. These improvements resulted in significant gains in organic visibility and user engagement metrics.",
+      "Kumar RO Plant project focused on establishing a strong digital presence for a water purification business through integrated SEO and paid advertising strategies. The goal was to increase brand visibility, drive qualified traffic, and generate high-quality leads.",
+      "The SEO strategy involved comprehensive keyword research targeting 50+ industry-specific terms, on-page optimization, and technical SEO improvements. This resulted in significant improvements in organic search rankings and traffic.",
+      "Parallel to SEO efforts, managed Google Ads and Facebook Ads campaigns with strategic audience targeting, ad copy optimization, and continuous A/B testing to maximize ROI and conversion rates.",
     ],
     features: [
-      "Responsive WordPress website development",
-      "Website speed optimization",
-      "Image optimization",
-      "Used custom html and css where needed",
-      
+      "Tracked and optimized 50+ industry-specific keywords",
+      "Achieved top-5 rankings for 10+ high-value keywords",
+      "Managed multi-platform paid advertising campaigns",
+      "Implemented comprehensive A/B testing strategy",
+      "Developed conversion-optimized landing pages",
+      "Real-time performance tracking and reporting",
     ],
     technologies: [
-      "WordPress",
-      "Elementor",
+      "Google Ads",
+      "Facebook Ads",
+      "SEMrush",
+      "Google Analytics 4",
+      "Google Search Console",
+      "A/B Testing Tools",
+    ],
+    coverImage: "/kumar.png",
+    thumbnailImage: "/kumar.png",
+    gallery: [
+      { url: "/kumar-gsc.png", caption: "SEO Performance Dashboard" },
+      { url: "/kumar-dash.png", caption: "Google Ads Campaign Results" },
+      { url: "/kumar-analytics.png", caption: "Google Analytics" },
       
     ],
-    coverImage: "/twh.png",
-    thumbnailImage: "/twh.png",
-    gallery: [
-      { url: "/eti.png", caption: "Website Hero" },
-      { url: "/eti-sec.png", caption: "Website form" },
-      { url: "/eti.png", caption: "" },
-      { url: "", caption: " " },
-    ],
-    client: "Agency Project",
-    timeline: "1 month",
-    role: "Web Development Associate",
-    liveUrl: "https://expert-seo-training-institute.in/",
+    client: "Kumar Enterprises",
+    timeline: "10 months (Nov 2023 - Oct 2024)",
+    role: "SEO and PPC Manager",
+    liveUrl: "https://kumarroplant.com/",
     relatedProjects: [
-      {
-        slug: "kumar-ro-plant",
-        title: "Kumar RO Plant",
-        category: "Performance Marketing and Web Development",
-        image: "/kumar.png",
-      },
       {
         slug: "policy-digit",
         title: "Policy Digit",
         category: "Lead Generation",
         image: "/digit.png",
+      },
+      {
+        slug: "the-winning-hand",
+        title: "The Winning Hand",
+        category: "Growth & Web Development",
+        image: "/twh.png",
       },
     ],
   },
