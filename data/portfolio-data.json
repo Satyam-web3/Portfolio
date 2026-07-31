@@ -5,14 +5,14 @@
   },
   "personal": {
     "name": "Satyam",
-    "title": "Digital Marketing Specialist",
+    "title": "Social Media Marketing Specialist",
     "location": "Noida, India",
     "avatar": "/profile.jpg",
     "email": "satyam09.tech@gmail.com",
     "phone": "+91 8510039826",
     "workingHours": "Monday - Friday, 9am - 6pm IST",
     "availableForWork": true,
-    "badges": ["SEO", "PPC", "Web Development"],
+    "badges": ["Instagram Marketing", "Social Media Marketing"],
     "social": [
       {
         "platform": "LinkedIn",
@@ -32,11 +32,11 @@
     ]
   },
   "about": {
-    "bio": "Digital Marketing Specialist with hands-on experience in SEO, PPC, and web development. Skilled at improving search rankings, driving qualified traffic, and delivering measurable ROI. Proficient in managing Google Ads, LinkedIn, and Meta campaigns with expertise in website optimization on WordPress and Elementor.",
+    "bio": "Social Media Marketing Specialist** with hands-on experience in content strategy, social media management, and digital marketing. Skilled in planning content calendars, creating engaging campaigns, growing brand presence across Instagram, LinkedIn, and Facebook, and analyzing performance to maximize audience engagement. Experienced in content management, creator collaborations, and executing data-driven social media strategies.",
     "focus": [
-      "Optimizing search rankings and driving organic traffic growth",
-      "Managing high-ROI PPC campaigns across Google Ads, Meta, and LinkedIn",
-      "Building responsive websites and improving technical SEO performance"
+"Developing and executing social media strategies to increase brand awareness and audience engagement",
+"Managing content calendars, campaigns, and creator collaborations across Instagram, LinkedIn, and Facebook",
+"Managing content calendars, campaigns, and creator collaborations across Instagram, LinkedIn, and Facebook"
     ],
     "languages": [
       {
@@ -53,11 +53,11 @@
       }
     ],
     "interests": [
-      "SEO Strategy",
-      "Performance Marketing",
-      "Web Analytics",
-      "Content Optimization",
-      "Conversion Rate Optimization"
+      "Social Media Marketing",
+      "Instagram Marketing",
+      "Social Media Strategy",
+      "Content Management",
+      "Reels Strategy"
     ]
   },
   "navigation": [
@@ -83,6 +83,20 @@
     }
   ],
   "experience": [
+
+
+     {
+      "title": "Freelancer Creator Manager",
+      "company": "Kirti Chaubey (@hihikirti)",
+      "period": "Feb 2026 - Present",
+      "description": "Leading digital marketing initiatives with focus on Google Ads optimization and SEO improvements. Driving measurable ROI through refined targeting strategies and data-driven campaign management.",
+      "achievements": [
+        "Managed content planning, scheduling, and publishing on Instagram social media platforms",
+        "Coordinated with the creator to maintain a consistent content calendar and brand identity.",
+        "•Organized campaign deliverables, tracked deadlines, and monitored content performance to optimize engagement."
+      ],
+      "technologies": ["Content Calender", "Content Management", "Rees Strategy", "Brand Collaboration"]
+    },
     {
       "title": "Digital Marketing Executive",
       "company": "Kelvera Solutions",
@@ -98,17 +112,16 @@
       "technologies": ["Google Ads", "SEO", "GA4", "Google Search Console", "SEMrush", "A/B Testing"]
     },
     {
-      "title": "SEO and PPC Manager - Freelancing",
+      "title": "Digital Marketing and Social Media Manager - Freelancing",
       "company": "Kumar Enterprises",
       "period": "May 2024 - Oct 2024",
-      "description": "Managed comprehensive SEO and PPC strategies for enterprise client. Achieved significant improvements in organic rankings and paid campaign performance through strategic optimization.",
-      "achievements": [
-        "Achieved top-5 rankings for 10+ industry-specific keywords, increasing organic clicks by 45% in 6 months",
-        "Boosted local SEO via Google Business Profile, raising visibility by 30%",
-        "Scaled Google Ads and Facebook Ads campaigns, improving CTR by 20% while reducing CPC by 15%"
-      ],
-      "technologies": ["Google Ads", "Facebook Ads", "Local SEO", "Google Business Profile", "Keyword Research"]
-    },
+   "description": "Managed end-to-end social media strategy, content planning, and campaign execution to strengthen brand presence, increase audience engagement, and improve overall social media performance.",
+"achievements": [
+  "Planned and managed content calendars, ensuring consistent and timely content publishing across social media platforms",
+  "Developed engaging social media campaigns and content strategies that increased audience engagement and brand visibility",
+  "Monitored content performance using analytics, optimizing strategy to improve reach, engagement, and campaign effectiveness"
+],
+"technologies": ["Instagram", "Facebook", "LinkedIn", "Meta Business Suite", "Canva", "Meta Ads Manager", "Content Calendar", "Performance Analytics"]    },
     {
       "title": "Digital Marketing & Web Development Manager",
       "company": "The Winning Hand",
@@ -116,11 +129,11 @@
       "description": "Managed end-to-end digital marketing and web development projects. Designed responsive WordPress websites while implementing comprehensive SEO strategies and managing cross-platform PPC campaigns.",
       "achievements": [
         "Designed responsive WordPress websites, improving load speed by 25% and user retention by 15%",
-        "Implemented structured data and on-page SEO, boosting impressions by 50% and sessions by 20%",
-        "Created and managed cross-platform PPC campaigns (Google Ads & Meta), driving a 20% rise in qualified leads while maintaining target ROAS",
-        "Enhanced website's organic rankings and CTR by restructuring content, increasing CTR by 30%"
+        "Planned promotional campaigns for social media platforms",
+        "Coordinated website and social campaigns for better lead generation.",
+        "Created performance reports for social media campaigns"
       ],
-      "technologies": ["WordPress", "Elementor", "Google Ads", "Meta Ads", "Technical SEO", "HTML/CSS"]
+      "technologies": ["Instagram", "Canva", "Content Calender", "Meta Ads", "Technical SEO", "HTML/CSS"]
     }
   ],
   "credentials": {
@@ -155,35 +168,35 @@
       }
     ],
     "skills": [
-      "On-Page SEO",
-      "Off-Page SEO",
-      "Technical SEO",
-      "Google Ads",
+      "Social Media Marketing",
+      "Creative Writing",
+      "Reels Strategy",
+      "Content Management",
+      "Content Planning",
+      "Content Calendar",
       "Meta Ads",
-      "LinkedIn Ads",
-      "Keyword Research",
       "Content Strategy",
       "A/B Testing",
-      "Lead Generation",
+      "Lead Generation Strategies",
       "ROI Analysis",
-      "Landing Page Optimization"
+      "A/B Testing"
     ]
   },
   "technicalSkills": {
-    "design": ["WordPress", "Elementor", "Landing Page Design", "Responsive Design", "Page Speed Optimization"],
+    "design": ["WordPress", "Elementor", "Canva", "CapCut", "Meta Business Suite"],
     "development": ["HTML/CSS", "Website Optimization", "Core Web Vitals", "Structured Data", "Technical SEO"],
     "strategy": [
-      "Keyword Research",
+      "Social Media Marketing",
       "Content Strategy",
-      "User Experience Optimization",
+      "Instagram Marketing",
       "Conversion Rate Optimization",
-      "A/B Testing",
-      "Performance Tracking"
+      "Content Planning",
+      "Reels Strategy"
     ],
     "marketing": [
-      "Campaign Management",
+      "CCreative Writing",
       "Client Communication",
-      "Data Analysis",
+      "Social Media Strategy",
       "Performance Reporting",
       "ROI Optimization"
     ]
